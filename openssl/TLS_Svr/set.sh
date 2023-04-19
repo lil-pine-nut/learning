@@ -1,0 +1,1 @@
+g++ -g server.cpp TLS_Svr.cpp -o server -lssl -lcrypto

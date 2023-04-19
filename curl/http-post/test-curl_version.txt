@@ -1,0 +1,9 @@
+#include <curl/curl.h>
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cerr << curl_version() << endl;
+}

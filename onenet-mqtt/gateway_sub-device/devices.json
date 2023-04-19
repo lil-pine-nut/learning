@@ -1,0 +1,20 @@
+{
+    "description": "configuration of the devices",
+    "gateway": {
+        "DeviceName": "mqtt_test_2022_06_d1",
+        "ProductID": "ux9jchZp8s",
+        "SecKey": "axnHhlFmJvxLM8ZCPFzmM5antrxOUuu/L5W9YzmXUm4="
+    },
+    "sub-devices": [
+        {
+            "DeviceName": "test_subdev_01",
+            "ProductID": "Y8CLDa6OfI",
+            "SecKey": "dBTEGvV7bi/hf0Jq11i9Jd2gzmEpUXS8TnfxW2hfb9Y="
+        },
+        {
+            "DeviceName": "test_subdev_02",
+            "ProductID": "Y8CLDa6OfI",
+            "SecKey": "zsqcmDrW68+J1lnYGz/XCBprBt9MyBPbWrJhHGDSbzQ="
+        }
+    ]
+}

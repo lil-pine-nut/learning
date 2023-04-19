@@ -1,0 +1,6 @@
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR})
+# include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+link_libraries(-lpthread)
+add_executable(heavy ${CMAKE_CURRENT_SOURCE_DIR} threadpool.c heavy.c)
+add_executable(shutdown ${CMAKE_CURRENT_SOURCE_DIR} threadpool.c shutdown.c)
+add_executable(thrdtest ${CMAKE_CURRENT_SOURCE_DIR} threadpool.c thrdtest.c)
